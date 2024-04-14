@@ -6,3 +6,77 @@
 */
 
 @import url('./reset.css');
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-item {
+  max-width: calc((100% - 48px) / 3);
+}
+
+h1 {
+  display: none;
+}
+
+.container {
+  display: flex;
+  padding: 80px;
+
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 408px;
+height: 296px;
+padding: 24px;
+gap: 16px;
+border-radius: 8px;
+opacity: 0px;
+
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.email-input {
+  width: 360px;
+  height: 40px;
+}
+
+.message-input {
+  width: 360px;
+  height: 80px;
+}
+
+.form-btn {
+  width: 95px;
+height: 40px;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 8px;
+opacity: 0px;
+background: #4E75FF;
+border: none;
+cursor: pointer;
+color: #FFFFFF;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background: #6C8CFF;
+}
